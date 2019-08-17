@@ -21,6 +21,8 @@ export default class EntityField extends PureComponent {
 
   WIKIDATA_LINK_URL = 'https://www.wikidata.org/wiki/';
 
+  WIKIDATA_LINK_URL = 'https://www.wikidata.org/wiki/';
+
   constructor() {
     super( ...arguments );
 

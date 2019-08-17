@@ -16,6 +16,9 @@ export default class ReferencePropertySelect extends PureComponent {
   INSTANCE_OF = 'wdt:P31';
   SOURCE_TYPE = 'wd:Q18608359';
 
+  INSTANCE_OF = 'wdt:P31';
+  SOURCE_TYPE = 'wd:Q18608359';
+
   constructor() {
     super( ...arguments );
 

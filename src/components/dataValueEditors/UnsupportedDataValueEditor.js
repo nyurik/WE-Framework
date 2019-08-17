@@ -14,6 +14,8 @@ export default class UnsupportedDataValueEditor extends Component {
 
   WIKIDATA_ROOT = '//www.wikidata.org/';
 
+  WIKIDATA_ROOT = '//www.wikidata.org/';
+
   constructor() {
     super( ...arguments );
 

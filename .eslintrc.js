@@ -21,6 +21,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
   ],
+<<<<<<< HEAD
   globals: {
     $: true,
     jQuery: true,
@@ -29,6 +30,14 @@ module.exports = {
 
     /* root dir only, disabled in src/ */
     process: true,
+=======
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "mw": true,
+    "require": true,
+    "process": true,
+>>>>>>> 1
   },
   plugins: [ 'promise' ],
 

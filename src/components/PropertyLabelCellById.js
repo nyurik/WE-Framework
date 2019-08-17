@@ -12,6 +12,8 @@ export default class PropertyLabelCellById extends PureComponent {
 
   WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
 
+  WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
+
   render() {
     const { propertyId } = this.props;
 
