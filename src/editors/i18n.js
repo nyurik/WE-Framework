@@ -2,6 +2,13 @@ import { localize } from 'utils/I18nUtils';
 
 const en = {
 
+  tagLinkText: 'Tag',
+  tagDescription: 'OpenStreetMap key=value combination',
+  tagDialogTitle: 'OpenStreetMap key=value combination',
+
+  tabMetadata: 'Metadata (readonly)',
+
+
   tabGeneral: 'general',
   tabBirthAndDeath: 'birth & death',
   tabEducationAndScience: 'education & science',
