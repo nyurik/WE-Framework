@@ -27,9 +27,8 @@ module.exports = {
     "mw": true,
     "require": true,
 
-    // for test:
-    "describe": true,
-    "it": true,
+    /* root dir only, disabled in src/ */
+    "process": true,
   },
   "plugins": [ "promise" ],
 
@@ -195,4 +194,4 @@ module.exports = {
       }
     }
   }
-}
+};
