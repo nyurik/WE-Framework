@@ -4,7 +4,6 @@ import EditorsLinks from './settings/EditorsLinks';
 import i18n from 'settings/i18n';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import wikieditorIntegration from 'sources/wikieditorIntegration';
 
 if ( !window._babelPolyfill ) {
   require( 'babel-polyfill' );
@@ -49,8 +48,6 @@ mw.loader.using( [ //
   while ( ul.firstChild ) ul.removeChild( ul.firstChild );
   ReactDOM.render( <EditorsLinks editorTemplates={getEnabledEditors()} />, ul );
 
-  // only for ru-wiki: add source insert to edit toolbar
-  wikieditorIntegration();
 
 }, function() {
   /*eslint no-console: 0*/
