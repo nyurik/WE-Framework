@@ -22,6 +22,8 @@ export default class UnitSelect extends PureComponent {
     readOnly: false,
   };
 
+  ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
+
   constructor() {
     super( ...arguments );
 
