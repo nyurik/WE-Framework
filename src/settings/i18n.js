@@ -6,7 +6,7 @@ const en = {
 
   fieldSetEditors: 'Editors to enable (in left menu and dropdowns)',
 
-  portalLabel: 'Wikidata Edit',
+  portalLabel: 'Edit data item',
 
   windowButtonSave: 'Save',
   windowButtonCancel: 'Cancel',
