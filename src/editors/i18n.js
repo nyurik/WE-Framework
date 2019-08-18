@@ -2,6 +2,10 @@ import { localize } from 'utils/I18nUtils';
 
 const en = {
 
+  keyLinkText: 'Key',
+  keyDescription: 'OpenStreetMap data key',
+  keyDialogTitle: 'OpenStreetMap data key',
+
   tagLinkText: 'Tag',
   tagDescription: 'OpenStreetMap key=value combination',
   tagDialogTitle: 'OpenStreetMap key=value combination',

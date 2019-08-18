@@ -1,12 +1,12 @@
 import i18n from './i18n';
 
 const editorDescription = {
-  id: 'Tag',
-  linkText: i18n.tagLinkText,
-  description: i18n.tagDescription,
-  dialogTitle: i18n.tagDialogTitle,
-  newEntityInstanceOf: 'Q7',
-  recommendedClasses: [ 'Q7' ],
+  id: 'Key',
+  linkText: i18n.keyLinkText,
+  description: i18n.keyDescription,
+  dialogTitle: i18n.keyDialogTitle,
+  newEntityInstanceOf: 'Q2',
+  recommendedClasses: [ 'Q2' ],
   tabs: [
     {
       label: i18n.tabGeneral,
@@ -18,8 +18,7 @@ const editorDescription = {
           labelEntityId: 'Q19766' /* metadata (do not edit) */,
           fields: [
             { property: 'P2' } /* instance of */,
-            { property: 'P19' } /* permanent tag ID */,
-            { property: 'P10' } /* key for this tag */,
+            { property: 'P16' } /* permanent key ID */,
           ],
         },
         {

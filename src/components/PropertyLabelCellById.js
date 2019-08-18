@@ -10,7 +10,7 @@ export default class PropertyLabelCellById extends PureComponent {
     propertyId: PropTypes.string.isRequired,
   };
 
-  WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
+  WIKIDATA_LINK_URL = '//wiki.openstreetmap.org/wiki/';
 
   render() {
     const { propertyId } = this.props;

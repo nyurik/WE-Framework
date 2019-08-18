@@ -12,7 +12,7 @@ export default class UnsupportedDataValueEditor extends Component {
     propertyDescription: PropTypes.instanceOf( PropertyDescription ),
   };
 
-  WIKIDATA_ROOT = '//www.wikidata.org/';
+  WIKIDATA_ROOT = '//wiki.openstreetmap.org/';
 
   constructor() {
     super( ...arguments );

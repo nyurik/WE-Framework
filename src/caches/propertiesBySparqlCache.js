@@ -4,8 +4,8 @@ const TYPE = 'PROPERTIESBYSPARQL';
 
 class PropertiesBySparqlCache extends AbstractQueuedCacheWithPostcheck {
 
-  SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
-  ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
+  SPARQL_ENDPOINT = 'https://sophox.org/sparql';
+  ENTITY_URL_PREFIX = 'http://wiki.openstreetmap.org/entity/';
 
   constructor() {
     super( TYPE, true, 1 );

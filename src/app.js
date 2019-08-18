@@ -27,7 +27,7 @@ mw.loader.using( [ //
   'mediawiki.ForeignApi',
 ], () => {
 
-  require( 'fetch-polyfill' );
+  // require( 'fetch-polyfill' );
   loadSemanticUiCss();
 
   allEditorTemplates.forEach( editorTemplate => {

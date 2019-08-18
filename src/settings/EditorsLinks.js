@@ -13,11 +13,11 @@ export default class EditorLinks extends PureComponent {
     editorTemplates: PropTypes.arrayOf( PropTypes.shape( EditorShape ) ),
   };
 
-  SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
-  ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
-  ENTITY_PREFIX = 'wd:';
-  INSTANCEOF_PROP = 'wdt:P31';
-  SUBCLASS_PROP = 'wdt:P279';
+  SPARQL_ENDPOINT = 'https://sophox.org/sparql';
+  ENTITY_URL_PREFIX = 'http://wiki.openstreetmap.org/entity/';
+  ENTITY_PREFIX = 'osmd:';
+  INSTANCEOF_PROP = 'osmdt:P31';
+  SUBCLASS_PROP = 'osmdt:P279';
 
   constructor() {
     super( ...arguments );
