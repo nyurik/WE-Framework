@@ -8,10 +8,6 @@ import { Parser } from 'wikitext-dom';
 import PropTypes from 'prop-types';
 
 const allImporters = [
-  require( './ПостановлениеПравительстваРФ' ).default,
-  require( './РаспоряжениеПравительстваРФ' ).default,
-  require( './РаспоряжениеПрезидентаРФ' ).default,
-  require( './УказПрезидентаРФ' ).default,
 ];
 
 class ImportDataDialog extends PureComponent {

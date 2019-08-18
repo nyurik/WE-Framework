@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export default class UnitSelect extends PureComponent {
 
-  ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
+  ENTITY_URL_PREFIX = 'http://wiki.openstreetmap.org/entity/';
 
   static propTypes = {
     value: PropTypes.object,
@@ -22,7 +22,7 @@ export default class UnitSelect extends PureComponent {
     readOnly: false,
   };
 
-  ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
+  ENTITY_URL_PREFIX = 'http://wiki.openstreetmap.org/entity/';
 
   ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
 

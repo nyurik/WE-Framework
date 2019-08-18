@@ -17,7 +17,7 @@ export default class GoToWikidataButtonCell extends PureComponent {
     entityId: null,
   };
 
-  WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
+  WIKIDATA_LINK_URL = '//wiki.openstreetmap.org/wiki/';
 
   render() {
     const { disabled, entityId } = this.props;

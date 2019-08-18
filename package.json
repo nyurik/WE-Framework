@@ -71,6 +71,7 @@
     "eslint:check": "eslint --ignore-pattern \"!.eslintrc.js\" .eslintrc.js karma.conf.js postcss.config.js webpack.config.js src/**/*.js test/**/*.js test/**/*.js",
     "eslint:fix": "eslint --ignore-pattern \"!.eslintrc.js\" --fix .eslintrc.js karma.conf.js postcss.config.js webpack.config.js src/**/*.js test/**/*.js",
     "serve": "webpack-dev-server",
+    "build-dev": "(webpack > ./dist/deploy-to-wikipedia.out.js) && mv dist/app.bundle.js 'dist/wiki.openstreetmap.org/w/index.php%3ftitle=User%3aYurik%2fdataitemeditor2.js&action=raw&ctype=text%2fjavascript'",
     "build": "webpack -p && eslint ./deploy-to-wikipedia.js --fix || babel ./deploy-to-wikipedia.js > ./dist/deploy-to-wikipedia.out.js",
     "deploy": "npm run build && node ./dist/deploy-to-wikipedia.out.js",
     "test": "karma start karma.conf.js --single-run",

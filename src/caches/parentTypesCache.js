@@ -3,10 +3,10 @@ import AbstractQueuedCacheWithPostcheck from './AbstractQueuedCacheWithPostcheck
 const TYPE = 'PARENTTYPES';
 
 class ParentTypesCache extends AbstractQueuedCacheWithPostcheck {
-  SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
-  ENTITY_URL_PREFIX = 'http://www.wikidata.org/entity/';
-  ENTITY_PREFIX = 'wd:';
-  SUBCLASS_PROP = 'wdt:P279';
+  SPARQL_ENDPOINT = 'https://sophox.org/sparql';
+  ENTITY_URL_PREFIX = 'http://wiki.openstreetmap.org/entity/';
+  ENTITY_PREFIX = 'osmd:';
+  SUBCLASS_PROP = 'osmdt:P3';
 
   constructor() {
     super( TYPE, true, 1 );

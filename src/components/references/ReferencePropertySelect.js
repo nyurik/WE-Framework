@@ -13,8 +13,8 @@ export default class ReferencePropertySelect extends PureComponent {
     onSelect: PropTypes.func.isRequired,
   };
 
-  INSTANCE_OF = 'wdt:P31';
-  SOURCE_TYPE = 'wd:Q18608359';
+  INSTANCE_OF = 'osmdt:P2';
+  SOURCE_TYPE = 'osmd:Q18608359'; // FIXME: incorrect Q-id
 
   INSTANCE_OF = 'wdt:P31';
   SOURCE_TYPE = 'wd:Q18608359';

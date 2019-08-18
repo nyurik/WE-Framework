@@ -9,7 +9,7 @@ export default class PropertyLabelCell extends PureComponent {
     propertyDescription: PropTypes.instanceOf( PropertyDescription ),
   };
 
-  WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
+  WIKIDATA_LINK_URL = '//wiki.openstreetmap.org/wiki/';
 
   WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
 

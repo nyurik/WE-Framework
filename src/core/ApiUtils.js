@@ -109,7 +109,7 @@ export function isCommons() {
   return WG_SITE_NAME === 'Wikimedia Commons';
 }
 
-const WIKIDATA_ROOT = '//www.wikidata.org/';
+const WIKIDATA_ROOT = '//wiki.openstreetmap.org/';
 
 function getWikidataApiImpl() {
   let api;
@@ -129,7 +129,7 @@ let wikidataApi = null;
 export const getWikidataApi = () => wikidataApi === null ? wikidataApi = getWikidataApiImpl() : wikidataApi;
 
 export function isWikidata() {
-  return WG_SITE_NAME === 'Wikidata';
+  return true;
 }
 
 export function purge() {
