@@ -1,7 +1,6 @@
-'use strict';
-
+/* eslint-env node */
 module.exports = {
-  "globals": {
-    "process": false,
+  globals: {
+    process: false,
   },
 };

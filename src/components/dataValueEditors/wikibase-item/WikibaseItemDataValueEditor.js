@@ -27,8 +27,6 @@ export default class WikibaseItemDataValueEditor extends PureComponent {
 
   WIKIDATA_LINK_URL = 'https://wiki.openstreetmap.org/wiki/';
 
-  WIKIDATA_LINK_URL = 'https://www.wikidata.org/wiki/';
-
   constructor() {
     super( ...arguments );
 

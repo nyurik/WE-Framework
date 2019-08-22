@@ -11,8 +11,6 @@ export default class PropertyLabelCell extends PureComponent {
 
   WIKIDATA_LINK_URL = '//wiki.openstreetmap.org/wiki/';
 
-  WIKIDATA_LINK_URL = '//www.wikidata.org/wiki/';
-
   render() {
     const { label, description, id } = this.props.propertyDescription;
     return <th className={styles.wef_property_label}>

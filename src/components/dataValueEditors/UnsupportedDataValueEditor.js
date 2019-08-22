@@ -14,8 +14,6 @@ export default class UnsupportedDataValueEditor extends Component {
 
   WIKIDATA_ROOT = '//wiki.openstreetmap.org/';
 
-  WIKIDATA_ROOT = '//www.wikidata.org/';
-
   constructor() {
     super( ...arguments );
 
